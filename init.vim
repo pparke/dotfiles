@@ -18,6 +18,12 @@ Plugin 'othree/yajs.vim'
 " HTML5 + inline SVG omnicomplete, indent and syntax
 Plugin 'othree/html5.vim'
 
+" JSX support
+Plugin 'mxw/vim-jsx'
+
+" JsDoc
+Plugin 'heavenshell/vim-jsdoc'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

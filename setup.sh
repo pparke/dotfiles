@@ -7,9 +7,9 @@
 #######################################
 
 # Variables
-DOTDIR=~/dotfiles
-OLDDIR=~/dotfiles_old
-declare -A DOT_FILES=( [init.vim]="~/.config/nvim" [.tmux.conf]="~" )
+DOTDIR=$HOME/dotfiles
+OLDDIR=$HOME/dotfiles_old
+declare -A DOT_FILES=( [init.vim]=$HOME/.config/nvim [.tmux.conf]=$HOME )
 
 # Create a folder to hold the existing
 # dotfiles that were on the system
