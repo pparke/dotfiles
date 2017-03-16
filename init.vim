@@ -146,6 +146,7 @@ autocmd! BufWritePost,BufEnter *.js Neomake
 
 " ESlint
 let g:neomake_javascript_enabled_markers = ['eslint']
+let g:neomake_javascript_eslint_exe = $PWD .'/node_modules/.bin/eslint'
 nmap <Leader><Space>o :lopen<CR>												" open location window
 nmap <Leader><Space>c :lclose<CR>												" close location window
 nmap <Leader><Space>, :ll<CR>														" go to current error/warning
