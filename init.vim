@@ -58,3 +58,4 @@ set ignorecase
 set ruler
 set autoindent
 set nowrap
+set path=.,,**
